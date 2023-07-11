@@ -1,4 +1,4 @@
-# Redux Store
+# Shop/Shop Site
 
 ## Description
 
@@ -85,7 +85,7 @@ THEN I find that the app uses Redux instead of the Context API
 
 ## Heroku Deployment
 
-[shopShopSite](https://keller-redux-6960698a5b38.herokuapp.com/)
+[Shop/Shop Site](https://keller-redux-6960698a5b38.herokuapp.com/)
 
 ## Screenshot
 
