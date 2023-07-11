@@ -7,7 +7,9 @@ import { idbPromise } from '../../utils/helpers';
 import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
-import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import '../../assets/css/style.css';
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
@@ -65,7 +67,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
-          🛒
+          <FontAwesomeIcon icon={faCartShopping} />
         </span>
       </div>
     );
@@ -74,7 +76,7 @@ const Cart = () => {
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
-        [close]
+        <FontAwesomeIcon icon={faCircleXmark} />
       </div>
       <h2>Shopping Cart</h2>
       {state.cart.length ? (

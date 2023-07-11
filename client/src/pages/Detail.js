@@ -11,7 +11,7 @@ import {
 } from '../utils/actions';
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
-import spinner from '../assets/spinner.gif';
+import spinner from '../assets/images/spinner.gif';
 
 function Detail() {
   const dispatch = useDispatch();

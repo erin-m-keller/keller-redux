@@ -82,7 +82,7 @@ THEN I find that the app uses Redux instead of the Context API
 
 ## Screenshot
 
-// TODO: Add screenshot
+![shopShopScreenshot](./client/src/assets/images/finished-product.png)
 
 ## License
 
