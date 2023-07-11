@@ -18,12 +18,14 @@ The Redux Store is a web application that modifies an e-commerce platform to use
 
 ## Technology Stack
 
-![javascript](https://img.shields.io/badge/-JavaScript-61DAFB?color=yellow&style=flat)
-![node](https://img.shields.io/badge/-Node.js-61DAFB?color=green&style=flat)
-![express](https://img.shields.io/badge/-Express.js-61DAFB?color=blue&style=flat)
-![mongodb](https://img.shields.io/badge/-MongoDB-61DAFB?color=purple&style=flat)
-![redux](https://img.shields.io/badge/-React-61DAFB?color=red&style=flat)
-![graphql](https://img.shields.io/badge/-GraphQL-61DAFB?color=red&style=flat)
+![javascript](https://img.shields.io/badge/-JavaScript-61DAFB?color=red&style=flat)
+![node](https://img.shields.io/badge/-Node.js-61DAFB?color=orange&style=flat)
+![express](https://img.shields.io/badge/-Express.js-61DAFB?color=yellow&style=flat)
+![mongodb](https://img.shields.io/badge/-MongoDB-61DAFB?color=green&style=flat)
+![mongoose](https://img.shields.io/badge/-Mongoose-61DAFB?color=blue&style=flat)
+![react](https://img.shields.io/badge/-React-61DAFB?color=purple&style=flat)
+![redux](https://img.shields.io/badge/-Redux-61DAFB?color=indigo&style=flat)
+![graphql](https://img.shields.io/badge/-GraphQL-61DAFB?color=violet&style=flat)
 ![Apollo](https://img.shields.io/badge/-Apollo-61DAFB?color=red&style=flat)
 
 ## User Story
