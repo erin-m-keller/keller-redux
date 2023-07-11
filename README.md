@@ -9,9 +9,9 @@ The Redux Store is a web application that modifies an e-commerce platform to use
   * [User Story](#user-story)
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation](#installation)
+  * [Tests](#tests)
   * [Heroku Deployment](#heroku-deployment)
   * [Screenshot](#screenshot)
-  * [Deployed Page](#deployed-page)
   * [License](#license)
   * [Questions](#questions)
 
@@ -74,11 +74,16 @@ THEN I find that the app uses Redux instead of the Context API
   ```
   > Application is available at: http://localhost:3000/  
   > GraphQL is available at: http://localhost:3001/graphql  
-  > To test Stripe payment, use the fake credit card number 4242 4242 4242 4242
+
+  * To test Stripe payment, use the following false CC numbers.
+  - 4242 4242 4242 4242	Visa - CVC: Any 3 digits, EXP: Future date
+  - 4000 0566 5566 5556	Visa - CVC: Any 3 digits, EXP: Future date
+  - 5105 1051 0510 5100	MasterCard - CVC: Any 3 digits, EXP: Future date
+  - 6200 0000 0000 0005	UnionPay - CVC: Any 3 digits, EXP: Future date
 
 ## Heroku Deployment
 
-// TODO: Add link
+![shopShopSite](https://keller-redux-6960698a5b38.herokuapp.com/)
 
 ## Screenshot
 
