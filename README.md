@@ -73,7 +73,7 @@ THEN I find that the app uses Redux instead of the Context API
     npm run develop
   ```
   > Application is available at: http://localhost:3000/  
-  > GraphQL is available at: http://localhost:3001/graphql
+  > GraphQL is available at: http://localhost:3001/graphql  
   > To test Stripe payment, use the fake credit card number 4242 4242 4242 4242
 
 ## Heroku Deployment
