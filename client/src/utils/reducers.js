@@ -1,4 +1,3 @@
-import { useReducer } from 'react';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -8,7 +7,7 @@ import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
-  TOGGLE_CART,
+  TOGGLE_CART
 } from './actions';
 
 const initialState = {
@@ -101,6 +100,4 @@ export const reducer = (state = initialState, action) => {
   }
 };
 
-export function useProductReducer(initialState) {
-  return useReducer(reducer, initialState);
-}
+export default reducer;
